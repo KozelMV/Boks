@@ -1,0 +1,11 @@
+// (page_358)exercise_9.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+
+
+int main()
+{
+    return 0;
+}
+
