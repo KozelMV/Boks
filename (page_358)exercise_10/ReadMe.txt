@@ -2,39 +2,13 @@
     CONSOLE APPLICATION : (page_358)exercise_10 Project Overview
 ========================================================================
 
-AppWizard has created this (page_358)exercise_10 application for you.
-
-This file contains a summary of what you will find in each of the files that
-make up your (page_358)exercise_10 application.
-
-
-(page_358)exercise_10.vcxproj
-    This is the main project file for VC++ projects generated using an Application Wizard.
-    It contains information about the version of Visual C++ that generated the file, and
-    information about the platforms, configurations, and project features selected with the
-    Application Wizard.
-
-(page_358)exercise_10.vcxproj.filters
-    This is the filters file for VC++ projects generated using an Application Wizard. 
-    It contains information about the association between the files in your project 
-    and the filters. This association is used in the IDE to show grouping of files with
-    similar extensions under a specific node (for e.g. ".cpp" files are associated with the
-    "Source Files" filter).
-
-(page_358)exercise_10.cpp
-    This is the main application source file.
-
-/////////////////////////////////////////////////////////////////////////////
-Other standard files:
-
-StdAfx.h, StdAfx.cpp
-    These files are used to build a precompiled header (PCH) file
-    named (page_358)exercise_10.pch and a precompiled types file named StdAfx.obj.
-
-/////////////////////////////////////////////////////////////////////////////
-Other notes:
-
-AppWizard uses "TODO:" comments to indicate parts of the source code you
-should add to or customize.
+10.	Только для любителей математики: создайте класс Polar, который предна-
+значен для хранения полярных координат (радиуса и угла). Перегрузите
+операцию + для выполнения сложения для объектов класса Polar. Сложе-
+ние двух объектов выполняется путем сложения координат X объектов,
+а затем координат Y. Результат будет координатами новой точки. Таким
+образом, вам нужно будет преобразовать полярные координаты к прямо-
+угольным, сложить их, а затем обратно преобразовать прямоугольные ко-
+ординаты результата к полярным.
 
 /////////////////////////////////////////////////////////////////////////////
