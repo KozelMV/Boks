@@ -1,40 +1,9 @@
-========================================================================
-    CONSOLE APPLICATION : (page_259)exercise_12 Project Overview
-========================================================================
-
-AppWizard has created this (page_259)exercise_12 application for you.
-
-This file contains a summary of what you will find in each of the files that
-make up your (page_259)exercise_12 application.
-
-
-(page_259)exercise_12.vcxproj
-    This is the main project file for VC++ projects generated using an Application Wizard.
-    It contains information about the version of Visual C++ that generated the file, and
-    information about the platforms, configurations, and project features selected with the
-    Application Wizard.
-
-(page_259)exercise_12.vcxproj.filters
-    This is the filters file for VC++ projects generated using an Application Wizard. 
-    It contains information about the association between the files in your project 
-    and the filters. This association is used in the IDE to show grouping of files with
-    similar extensions under a specific node (for e.g. ".cpp" files are associated with the
-    "Source Files" filter).
-
-(page_259)exercise_12.cpp
-    This is the main application source file.
-
-/////////////////////////////////////////////////////////////////////////////
-Other standard files:
-
-StdAfx.h, StdAfx.cpp
-    These files are used to build a precompiled header (PCH) file
-    named (page_259)exercise_12.pch and a precompiled types file named StdAfx.obj.
-
-/////////////////////////////////////////////////////////////////////////////
-Other notes:
-
-AppWizard uses "TODO:" comments to indicate parts of the source code you
-should add to or customize.
-
-/////////////////////////////////////////////////////////////////////////////
+12. Напишите программу, объединяющую в себе классы bMoney из упражне-
+ния 8 и sterling из упражнения 11. Напишите операцию преобразования
+для преобразования между классами bMoney и sterling, предполагая, что
+один фунт (?1.0.0) равен пятидесяти долларам ($50.00). Это приблизи-
+тельный курс обмена для XIX века, когда Британская империя еще ис-
+пользовала меру фунты-шиллинги-пенсы. Напишите программу main(),
+которая позволит пользователю вводить суммы в каждой из валют и пре-
+образовывать их в другую валюту с выводом результата. Минимизируйте
+количество изменений в существующих классах bMoney и sterling.
