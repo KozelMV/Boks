@@ -51,7 +51,7 @@ public:
 int main()
 {
 	setlocale(LC_ALL, "");
-	safehilo sa1(5,10);
+	safehilo sa1(3,10);
 
 	// задаем значения элементов
 	for (int j = sa1.down(); j <= sa1.top(); j++)
