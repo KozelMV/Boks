@@ -1,13 +1,13 @@
 //msoftcon.h
-//Объявления функций консольной графики от Lafore
-//используются консольные функции Windows 
+//РѕР±СЉСЏРІР»РµРЅРёСЏ С„СѓРЅРєС†РёР№ РєРѕРЅСЃРѕР»СЊРЅРѕР№ РіСЂР°С„РёРєРё РѕС‚ Lafore
+//РёСЃРїРѕР»СЊР·СѓСЋС‚СЃВ¤ РєРѕРЅСЃРѕР»СЊРЅС‹Рµ С„СѓРЅРєС†РёРё Windows 
 
-#ifndef _INC_WCONSOLE    //этот файл не должен включаться
-#define _INC_WCONSOLE    //дважды в тот же исходный файл
+#ifndef _INC_WCONSOLE    //СЌС‚РѕС‚ С„Р°Р№Р» РЅРµ РґРѕР»Р¶РµРЅ РІРєР»СЋС‡Р°С‚СЊСЃВ¤
+#define _INC_WCONSOLE    //РґРІР°Р¶РґС‹ РІ С‚РѕС‚ Р¶Рµ РёСЃС…РѕРґРЅС‹Р№ С„Р°Р№Р»
 
-#include <windows.h>     //для консольных функций Windows
-#include <conio.h>       //для kbhit(), getche()
-#include <math.h>        //для sin, cos
+#include <windows.h>     //РґР»СЏ РєРѕРЅСЃРѕР»СЊРЅС‹С… С„СѓРЅРєС†РёР№ Windows
+#include <conio.h>       //РґР»СЏ kbhit(), getche()
+#include <math.h>        //РґР»СЏ sin, cos
 
 enum fstyle { SOLID_FILL, X_FILL,      O_FILL, 
               LIGHT_FILL, MEDIUM_FILL, DARK_FILL };
