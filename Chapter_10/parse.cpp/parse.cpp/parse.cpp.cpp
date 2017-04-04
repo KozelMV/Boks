@@ -31,7 +31,7 @@ private:
 	char*pStr;
 	int len;
 public:
-	express(char*prt) : pStr(prt), len(std::strlen(pStr)){}
+	express(char*prt) : pStr(prt), len(std::strlen(pStr)) { std::cout << "\n\ttest string = " << *pStr << "\n\ttest addres reference = " << &pStr << "\n\ttest length = " << len << std::endl; }
 	void parse(); //parse the input string
 	int solve(); //evaluate the stack
 };

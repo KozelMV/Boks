@@ -3,6 +3,12 @@
 
 # ---------> Mine files and folders
 link(myTest)/
+test/
+drawingVS/
+horse/
+ConsoleApplication1/
+*.gitattributes
+
 
 # User-specific files
 *.suo
